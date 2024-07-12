@@ -1,65 +1,13 @@
-# ByteCoders
-En este espacio se sube el código creado para el grupo 
+# Reconocimiento-de-placas-con-IA-Byteccoders
 
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
+El vídeo que utilicé de ejemplo se puede descargar aquí : [video](https://www.pexels.com/video/traffic-flow-in-the-highway-2103099/) 
 
-Recuerden que este readme es su puerta de entrada para su proyecto. 
+## Modelos 
+Se utilizó un modelo previamente entrenado Yolov8 para detectar vehículos.
 
-Un ejemplo puede ser: 
-# Nombre del Proyecto
+Se utilizó un detector de matrículas autorizado para detectar las matrículas. El modelo se entrenó con Yolov8 utilizando este conjunto de datos y siguiendo este tutorial paso a paso sobre cómo entrenar un detector de objetos con Yolov8 con sus datos personalizados.
 
-Breve descripción del proyecto.
+El modelo entrenado está disponible el repositorio con el nombre de license_plate_detector.pt
 
-## Tabla de contenidos
-
-1. [Nombre](#Nombre)
-2. [Descripción](#descripción)
-3. [Arquitectura](#Arquitectura)
-4. [Proceso](#Proceso)
-5. [Funcionalidades](#Funcionalidades)
-6. [Estado del proyecto](#EstadoDelProyecto)
-7. [Agradecimientos](#Agradecimientos)
-
-
-* Nombre del proyecto
-
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
-
-* Arquitectura del proyecto + imagen
-
-* Proceso de desarrollo:
-
--Fuente del dataset
--Limpieza de datos (img que lo valide)
--Manejo excepciones/control errores
--¿Qué modelo de Machine Learning están usando?
--Estadísticos (Valores, gráficos, …)
--Métrica(s) de evaluación del modelo
-
-* Funcionalidades extra:
-
-Ejem 1: Implementación de chatbot
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
-
-Ejem 2: Integración del proyecto en una pág web
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem …: …
-- Tecnología/Herramientas usadas …
+## Dependencias
+El módulo de clasificación debe descargarse de este repositorio como se menciona en el video.
